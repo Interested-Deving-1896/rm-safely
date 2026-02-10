@@ -116,3 +116,7 @@ And, you have a few options to make the alias available in another user like so:
 
 2. Always use `sudo -s` to switch to root or another,
    then run `rm` in the next step as a good habit anyway.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zdk/rm-safely&type=date&legend=top-left)](https://www.star-history.com/#zdk/rm-safely&type=date&legend=top-left)
