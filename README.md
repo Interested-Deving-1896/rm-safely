@@ -2,10 +2,14 @@
 
 > `rm` safely.
 
-Let's `rm` with no anxiety.
+Let's `rm` safely with no anxiety.
 
-This is a simple and light shell function that make rm safer.
-It wraps you a safe rm from accidental deletion of files, especially the default MacOS `rm`.
+Because the rm command does not come with any personal protective equipment.
+
+This light shell function makes rm safer, especially the default MacOS `rm`.
+
+By wraping you a safe rm from any accidental deletion of files or directories
+e.g. accidental autocomplete, sub-shell or script bugs etc.
 
 _Keys_,
 
@@ -92,6 +96,9 @@ Or, you could just `/bin/rm` directly.
 
 - Main goal of rm-safely is to write it in a pure shell script
   as a gateway and a suppliment to rm, not a replacement.
+
+- Another goal is to help and ease your quick day-to-day work as a thin protective layer
+  (So, don't forget that you will still need a proper backup strategy for your really important data)
 
 - Alternative tools:
 
