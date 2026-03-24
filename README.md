@@ -1,10 +1,11 @@
 # rm-safely
 
-> `rm` — but safer.
+> `rm` safely.
 
 Let's `rm` with no anxiety.
 
-This is a safety shell alias to safe you from the accidental deletion of files, especially, default MacOS `rm`.
+This is a simple and light shell function that make rm safer.
+It wraps you a safe rm from accidental deletion of files, especially the default MacOS `rm`.
 
 _Keys_,
 
@@ -24,15 +25,15 @@ _Keys_,
 
 # Install
 
-Via curl:
-
-`curl -fsSL https://raw.githubusercontent.com/zdk/rm-safely/main/rm-safely | bash -s install`
-
 Via homebrew:
 
 ```bash
 brew install zdk/tools/rm-safely
 ```
+
+Or, via curl:
+
+`curl -fsSL https://raw.githubusercontent.com/zdk/rm-safely/main/rm-safely | bash -s install`
 
 # Usage
 
