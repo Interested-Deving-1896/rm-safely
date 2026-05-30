@@ -45,7 +45,7 @@ Use `rm` command to delete things as usual, but safer ＼(◎o◎)／
 
 In other words when you run `rm -rf file directory/`
 
-You will have files/dir the trash first,
+You will have the copied of files/dir in the trash first,
 then you can decide to delete or clean them later on.
 
 # Additional features
@@ -63,9 +63,11 @@ rm --help                    Show this help
 
 # Really Remove
 
-If you don't really care to move it to Trash first.
+Well, if you don't really care to move it to Trash first.
 
-rm-safely provide bypass to your OS rm via `--rm` option.
+You could just `/bin/rm` directly it's always there for you.
+
+Or, you can also use `--rm` option of rm-safely to bypass rm-safely protection.
 
 That means, use `rm --rm`
 
@@ -85,8 +87,6 @@ usage: rm [-f | -i] [-dIPRrvWx] file ...
 ```
 
 `--rm` is nothing special other than execute `/bin/rm` from current shell.
-
-Or, you could just `/bin/rm` directly.
 
 # Uninstall
 
